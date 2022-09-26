@@ -48,13 +48,15 @@ Specifically, each individual is classified into types according to the followin
 
 ### Compliance on the Treatment
 
-<img src="output/treatment-differences/Box_Time.png" width="400"> <img src="output/treatment-differences/Box_Correctas.png" width="400">
-
+<img src="output/treatment-differences/Box_Correctas.png" width="500">
 
 The figure 1, show that subjects in the HCL condition had on average 43.2% fewer correct answers compared to subjects in the LCL condition. Interestingly, we observed that in the second and third round there is positive effect of the number of correct 
 
-The figure 2  shows that subjects on the HCL condition have higher responses time by ≈ 300 ms. The subjects in the HCL condition
-had an average response time of 889 ms (SD = 595.9 ) while subjects in the LCL condition had a response time of 565 ms (SD = 205.9)._donors_mean_nonfarc.png" width="400">
+<img src="output/treatment-differences/Box_Time.png" width="500"> 
+
+
+
+The figure 2  shows that subjects on the HCL condition have higher responses time by ≈ 300 ms. The subjects in the HCL condition had an average response time of 889 ms (SD = 595.9 ) while subjects in the LCL condition had a response time of 565 ms (SD = 205.9)
 
 ### Effects Over Rule Following Propensity
 
@@ -78,7 +80,7 @@ Table \ref{tab.Azul} shows no significant effect of the \textit{HCL} condition o
 |       &nbsp;        |   Rule Violation  | Complete Rule Foll |Complete Rule Break|Extreme Behavior|
 |:-------------------:|:-----------------:|:------------------:|:---------------:|:------------------:|
 |                     |                   |                    |                 |                    |
-|    **Treatment**    |   2.039 (1.403)   |  -0.202 (0.198)    | -0.405 (0.262)* | -0.134 (0.0626)**   |
+|    **Treatment**    |   2.039 (1.403)   |  -0.202 (0.198)    | -0.405* (0.262) | -0.134** (0.0626)   |
 |                     |   -------------   |  ----------------  | --------------- |  ----------------- |
 |  **Demographics**   |        Yes        |        Yes         |       Yes       |         Yes        |
 | **_______________** |   _____________   |  ________________  | _______________ | __________________ |
@@ -97,6 +99,31 @@ For full rule-violation, we found that the \textit{HCL} treatment decreased the 
 Column 4 show the analysis of the effect of cognitive load on the distribution of blue balls in normative extreme behavior. For this purpose we created a dummy that took a value of 1 when the number of balls in the blue bucket was 0 or 50, and a value of 0 otherwise. In this case we found that people in the \texit{HCL} condition were 13\% less likely to have extreme behaviors. This result is quite interesting since there is not much evidence in this direction. \cite{westbrook_cognitive_2015}  proposed that increasing cognitive load through tasks that deplete self-control is related to changes in the salience of certain personality traits.\footnote{This means that certain traits may become salient but the reference point of the change is in the measure of the trait before to the experimental manipulation. This theory could explain the mixed results in the literature about the effect of lack of self-control over unethical behavioral and prosociality \citep{drolet_rationalizing_2004}} 
 
 ### Effects Over Social Norms Perception
+The figure \ref{fig.tab_pers} show the results of the algorithm of classification for the Personal Normatives Beliefs, in the \textit{HCL} we classified 45\% of the subjects as Consequentialist, 38\% as Deontic. Also, we classified 7 \% as normative egoists. In the other hand in the \textit{LCL} we classified   51\% as Consequentialist, 38\% as Deontic . Finally, we classified 4 \% as Normative Egoists.
+
+
+
+
+
+
+
+|       &nbsp;        | Consequensialist  |       Deontist     |Normative Egoist |      Other         |
+|:-------------------:|:-----------------:|:------------------:|:---------------:|:------------------:|
+|                     |                   |                    |                 |                    |
+|    **Treatment**    |  0.0680 (0.0667)   | -0.128* (0.0678)   | -0.40           | -0.0643** (0.0310) |
+|                     |   -------------   |  ----------------  | --------------- |  ----------------- |
+|  **Demographics**   |        Yes        |        Yes         |       Yes       |         Yes        |
+| **_______________** |   _____________   |  ________________  | _______________ | __________________ |
+|  **Observations**   |       213         |       213          |      213        |        213         |
+|       **R2**        |       0.047       |       0.017        |      0.061     |        0.332        |
+
+
+Table 2 shows that there is an effect of it{HCL} on the distribution of the types for the personal normative beliefs perceptions.
+
+
+The columns (4) shown that there is a higher probability of being in the Other category (i.e. subjects who have irregular behaviors or answer the same in all response options) in subjects exposed to the high cognitive load condition.
+
+Also, the column (2)  shown that there is a significant effect on the Deontic category of norm perception. This negative effect means that Deontic subjects have lower probability of been found in the treatment group. These result is in line with the findings in Table \ref{tab.extreme}, where subjects in the high cognitive load treatment tend to have less extreme distributions on the Rule Following Propensity Task. 
 
 
  <img src="output/top10_donors_mean_farc.png" width="500">

@@ -19,10 +19,32 @@ The experimental design consisted of: the Cognitive Reflection Test (CRT) follow
 
 Our identification of the effects induced by a variation in cognitive load on norm-following behavior and social-norm perception relies on the com- parison of behavior for procedures 2-4 (as shown in Figure 1) following two different versions of the N-back task (1). We implement a version of the N-back task to elicit high cognitive load (henceforth, HCL), and a placebo version of the N-back (henceforth, LCL). We also varied the task order of normative expectations and personal normative beliefs.
 
+To classify individuals based on their perceived injunctive norms into Deontists and Consequentialists, \cite{aycinena_diego_social_2022} focus on the variation over the intensive margin. For each individual they elicited the social acceptability (SA) of 20 different possible reporting actions via the Krupka-Weber task.
 
-##Results 
+They code each action as -1 (very socially inappropriate), -1/3 (somewhat socially inappropriate), + 1/3 (somewhat socially appropriate), and + 1 (very socially appropriate).
 
 
-<img src="output/treatment-differences/Box_Time.png" width="500"> <img src="output/treatment-differences/Box_Correctas.png" width="500">
-<img src="output/top10_donors_mean_nonfarc.png" width="500"> <img src="output/top10_donors_mean_farc.png" width="500">
+This allow them to estimate the following specification for each individual:
+
+
+<p align="center"> <img src="https://render.githubusercontent.com/render/math?math=    SA_{jis} = \alpha + \beta . Extent_{j} + \lambda . Situations_{s}+ \delta . Truths_{s} + \varepsilon"></p>
+
+
+where $SA_{jis}$ denotes the social acceptability of situation s (there are 5 situations referring to each possible outcome of a non-payoff maximizing die roll) and j denotes the extent of a lie in reporting an outcome (i.e., whether a person advantageously over reports the die roll by one, two, etc... ). In the regression, they also controlled when they elicited perceived norms regarding truth telling.
+
+
+Specifically, each individual is classified into types according to the following criteria:
+\begin{itemize}
+    \item Consequentialist type if $\beta$ < 0 (significant at least at the 10\% level), and the MSA of reporting a lie is lower than the MSA of reporting the truth while the mean social acceptability of reporting a lie is negative.
+    \item Deontist type if $\beta$ = 0 (or not significantly different from zero at the 10\% level), the MSA of reporting the truth is greater zero, while the MSA of reporting a lie is negative.
+    \item  Normative Egoist type if $\beta$ > 0 (significant at least at the 10\% level) or $\beta$ = 0 and the MSA of reporting a lie is greater than the MSA of reporting the truth.
+\end{itemize}
+
+
+
+## Results 
+
+
+<img src="output/treatment-differences/Box_Time.png" width="400"> <img src="output/treatment-differences/Box_Correctas.png" width="400">
+<img src="output/top10_donors_mean_nonfarc.png" width="400"> <img src="output/top10_donors_mean_farc.png" width="500">
 <img src="output/top10_amount_sum_nonfarc.png" width="500"> <img src="output/top10_amount_sum_farc.png" width="500">

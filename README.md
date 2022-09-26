@@ -49,5 +49,55 @@ Specifically, each individual is classified into types according to the followin
 ### Compliance on the Treatment
 
 <img src="output/treatment-differences/Box_Time.png" width="400"> <img src="output/treatment-differences/Box_Correctas.png" width="400">
-<img src="output/top10_donors_mean_nonfarc.png" width="400"> <img src="output/top10_donors_mean_farc.png" width="500">
+
+
+The figure 1, show that subjects in the HCL condition had on average 43.2% fewer correct answers compared to subjects in the LCL condition. Interestingly, we observed that in the second and third round there is positive effect of the number of correct 
+
+The figure 2  shows that subjects on the HCL condition have higher responses time by ≈ 300 ms. The subjects in the HCL condition
+had an average response time of 889 ms (SD = 595.9 ) while subjects in the LCL condition had a response time of 565 ms (SD = 205.9)._donors_mean_nonfarc.png" width="400">
+
+### Effects Over Rule Following Propensity
+
+<img src="output/treatment-differences/ProportionOver.png" width="500">
+
+Figure 3 shows the distributions subjects in both \textit{LCL} and \textit{HCL} conditions according to their level of rule-following behavior (proportion of balls in the blue bucket). Both distributions have point masses at full rule-following and full rule-violation. We performed a Kolmogorov-Smirnov test to compare the ball distributions between the two treatments and found no significant differences between the two distributions (\textit{p-value} =  0.449). 
+
+\begin{figure}[H]
+  \centering
+    \includegraphics[scale=0.45]{Imagenes/ProportionOver.png}
+  \caption{Distribution of balls between Experimental Conditions }
+  \label{fig.rule_following}
+\end{figure}
+
+
+
+
+
+Table \ref{tab.Azul} shows no significant effect of the \textit{HCL} condition on the propensity to follow rules (Column1). After observing the behavior of the distribution of balls between the two buckets, we decided to propose a series of exploratory analyses reported en columns 2, 3, 4  that would allow us to understand other relevant levels of propensity to follow the rules. 
+
+|       &nbsp;        |   Rule Violation  | Complete Rule Foll |Complete Rule Break|Extreme Behavior|
+|:-------------------:|:-----------------:|:------------------:|:---------------:|:------------------:|
+|                     |                   |                    |                 |                    |
+|    **Treatment**    |   2.039 (1.403)   |  -0.202 (0.198)    | -0.405 (0.262)* | -0.134 (0.0626)**   |
+|                     |   -------------   |  ----------------  | --------------- |  ----------------- |
+|  **Demographics**   |        Yes        |        Yes         |       Yes       |         Yes        |
+| **_______________** |   _____________   |  ________________  | _______________ | __________________ |
+|  **Observations**   |       213         |       213          |      213        |        213         |
+|       **R2**        |       0.024       |       0.0176       |      0.061     |        0.045        |
+
+
+
+
+We ran two Probit models: In the first one (column 2) the dependent variable was a dummy variable that took a value of 1 when subjects deposited all balls in the blue bucket (full rule-following), and in the second model (column 2) the dependent variable was a dummy that took a value of 1 when subjects left 0 balls in the blue bucket (full rule-violation).
+
+	
+For full rule-violation, we found that the \textit{HCL} treatment decreased the predicted probability of being a full rule-breaker. That means that people in the treatment group tended to put at least one ball in the blue bucket. This goes against our hypothesis (H1) but is consistent with \citep{adams-quackenbush_effects_2015}, who propose that deviating from the norm is cognitively challenging as it implies that people must later provide explanations and also, in some cases, must maintain a "straight" story.\footnote{ Also, \cite{strofer_catching_2016} found that in two groups in which one had an incentive to lie (not following the norm), subjects had differing skin conductance responses (SCR). Strofer proposed that not following the rules generates higher arousal levels as measured by SCR (and associated to higher levels of activity in the sympathetic nervous system).} Our results and this evidence support the hypothesis that subjects exposed to the \textit{HCL} condition and who consequently experience increased cognitive load prefer to follow the norm to avoid the additional cost of deviating from it.
+
+
+Column 4 show the analysis of the effect of cognitive load on the distribution of blue balls in normative extreme behavior. For this purpose we created a dummy that took a value of 1 when the number of balls in the blue bucket was 0 or 50, and a value of 0 otherwise. In this case we found that people in the \texit{HCL} condition were 13\% less likely to have extreme behaviors. This result is quite interesting since there is not much evidence in this direction. \cite{westbrook_cognitive_2015}  proposed that increasing cognitive load through tasks that deplete self-control is related to changes in the salience of certain personality traits.\footnote{This means that certain traits may become salient but the reference point of the change is in the measure of the trait before to the experimental manipulation. This theory could explain the mixed results in the literature about the effect of lack of self-control over unethical behavioral and prosociality \citep{drolet_rationalizing_2004}} 
+
+### Effects Over Social Norms Perception
+
+
+ <img src="output/top10_donors_mean_farc.png" width="500">
 <img src="output/top10_amount_sum_nonfarc.png" width="500"> <img src="output/top10_amount_sum_farc.png" width="500">

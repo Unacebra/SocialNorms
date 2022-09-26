@@ -19,6 +19,9 @@ The experimental design consisted of: the Cognitive Reflection Test (CRT) follow
 
 Our identification of the effects induced by a variation in cognitive load on norm-following behavior and social-norm perception relies on the com- parison of behavior for procedures 2-4 (as shown in Figure 1) following two different versions of the N-back task (1). We implement a version of the N-back task to elicit high cognitive load (henceforth, HCL), and a placebo version of the N-back (henceforth, LCL). We also varied the task order of normative expectations and personal normative beliefs.
 
+
+### Classification Algorithm 
+
 To classify individuals based on their perceived injunctive norms into Deontists and Consequentialists, \cite{aycinena_diego_social_2022} focus on the variation over the intensive margin. For each individual they elicited the social acceptability (SA) of 20 different possible reporting actions via the Krupka-Weber task.
 
 They code each action as -1 (very socially inappropriate), -1/3 (somewhat socially inappropriate), + 1/3 (somewhat socially appropriate), and + 1 (very socially appropriate).
@@ -38,12 +41,12 @@ Specifically, each individual is classified into types according to the followin
 - Deontist type if $\beta$ = 0 (or not significantly different from zero at the 10\% level), the MSA of reporting the truth is greater zero, while the MSA of reporting a lie is negative.
 
 - Normative Egoist type if $\beta$ > 0 (significant at least at the 10\% level) or $\beta$ = 0 and the MSA of reporting a lie is greater than the MSA of reporting the truth.
-\end{itemize}
 
 
 
 ## Results 
 
+### Compliance on the Treatment
 
 <img src="output/treatment-differences/Box_Time.png" width="400"> <img src="output/treatment-differences/Box_Correctas.png" width="400">
 <img src="output/top10_donors_mean_nonfarc.png" width="400"> <img src="output/top10_donors_mean_farc.png" width="500">

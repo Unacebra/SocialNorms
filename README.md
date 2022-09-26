@@ -27,8 +27,7 @@ They code each action as -1 (very socially inappropriate), -1/3 (somewhat social
 This allow them to estimate the following specification for each individual:
 
 
-SA_{jis} = \alpha + \beta . Extent_{j} + \lambda . Situations_{s}+ \delta . Truths_{s} + \varepsilon"
-
+ $SA_{jis}$ = $\alpha$ + $\beta$ . $Extent_{j}$ + $\lambda$ . $Situations_{s}$ + $\delta$ . $Truths_{s}$ + $\varepsilon$
 
 where $SA_{jis}$ denotes the social acceptability of situation s (there are 5 situations referring to each possible outcome of a non-payoff maximizing die roll) and j denotes the extent of a lie in reporting an outcome (i.e., whether a person advantageously over reports the die roll by one, two, etc... ). In the regression, they also controlled when they elicited perceived norms regarding truth telling.
 

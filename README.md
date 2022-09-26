@@ -18,3 +18,11 @@ Project presentation in PDF (in Spanish) can be found [here](presentation/presen
 The experimental design consisted of: the Cognitive Reflection Test (CRT) followed by three incentivized tasks: (1) the N-back task; (2) the Rule-following propensity task; (3) the Krupka and Weber (2013) protocol to identify social norms (normative expectations) through coordination. We used a non-incentivized (4) variation of the KW protocol to obtaining the personal normative beliefs. We also used the NASA TLX task. We finished the experimental session with self-report measure about the cognitive load in the N-Back task, and a sociodemographic questionnaire
 
 Our identification of the effects induced by a variation in cognitive load on norm-following behavior and social-norm perception relies on the com- parison of behavior for procedures 2-4 (as shown in Figure 1) following two different versions of the N-back task (1). We implement a version of the N-back task to elicit high cognitive load (henceforth, HCL), and a placebo version of the N-back (henceforth, LCL). We also varied the task order of normative expectations and personal normative beliefs.
+
+
+##Results 
+
+
+<img src="output/treatment-differences/Box_Time.png" width="500"> <img src="output/treatment-differences/Box_Correctas.png" width="500">
+<img src="output/top10_donors_mean_nonfarc.png" width="500"> <img src="output/top10_donors_mean_farc.png" width="500">
+<img src="output/top10_amount_sum_nonfarc.png" width="500"> <img src="output/top10_amount_sum_farc.png" width="500">

@@ -27,7 +27,7 @@ They code each action as -1 (very socially inappropriate), -1/3 (somewhat social
 This allow them to estimate the following specification for each individual:
 
 
-<p align="center">   SA_{jis} = \alpha + \beta . Extent_{j} + \lambda . Situations_{s}+ \delta . Truths_{s} + \varepsilon"></p>
+SA_{jis} = \alpha + \beta . Extent_{j} + \lambda . Situations_{s}+ \delta . Truths_{s} + \varepsilon"
 
 
 where $SA_{jis}$ denotes the social acceptability of situation s (there are 5 situations referring to each possible outcome of a non-payoff maximizing die roll) and j denotes the extent of a lie in reporting an outcome (i.e., whether a person advantageously over reports the die roll by one, two, etc... ). In the regression, they also controlled when they elicited perceived norms regarding truth telling.
@@ -35,8 +35,10 @@ where $SA_{jis}$ denotes the social acceptability of situation s (there are 5 si
 
 Specifically, each individual is classified into types according to the following criteria:
 -    Consequentialist type if $\beta$ < 0 (significant at least at the 10\% level), and the MSA of reporting a lie is lower than the MSA of reporting the truth while the mean social acceptability of reporting a lie is negative.
-    - Deontist type if $\beta$ = 0 (or not significantly different from zero at the 10\% level), the MSA of reporting the truth is greater zero, while the MSA of reporting a lie is negative.
-    - Normative Egoist type if $\beta$ > 0 (significant at least at the 10\% level) or $\beta$ = 0 and the MSA of reporting a lie is greater than the MSA of reporting the truth.
+
+- Deontist type if $\beta$ = 0 (or not significantly different from zero at the 10\% level), the MSA of reporting the truth is greater zero, while the MSA of reporting a lie is negative.
+
+- Normative Egoist type if $\beta$ > 0 (significant at least at the 10\% level) or $\beta$ = 0 and the MSA of reporting a lie is greater than the MSA of reporting the truth.
 \end{itemize}
 
 

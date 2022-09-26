@@ -11,8 +11,10 @@ Cognitive load is a psychological concept that establishes a precise definition 
 
 Cognitive load has been related to a trade-off between the dual systems theory proposed by Kahneman, (2011). This perspective proposes that different information-processing systems prioritize the production of automatic behaviors (system 1), and deliberate behaviors (system 2). System 2 involves effort and requires high cognitive resources.  Therefore, if cognitive resources are low due to an increase in cognitive load, the functioning of system 2 (related to rational decision making) decreases, leading to a predominance of system 1 (related to impulsive behaviors) which could conflict with normative behavior.
 
-Along the same lines, the more information is kept in working memory, the slower and more error-prone concurrent processes become, and there is evidence that high cognitive load may influence the occurrence of negative emotions.
-
 Project presentation in PDF (in Spanish) can be found [here](presentation/presentacion.pdf)
 
-## Methods
+## Experimental Method
+
+The experimental design consisted of: the Cognitive Reflection Test (CRT) followed by three incentivized tasks: (1) the N-back task; (2) the Rule-following propensity task; (3) the Krupka and Weber (2013) protocol to identify social norms (normative expectations) through coordination. We also used a non-incentivized (4) variation of the KW protocol to obtaining the personal normative beliefs. We also used the NASA TLX task. We finished the experimental session with self-report measure about the cognitive load in the N-Back task, and a sociodemographic questionnaire
+
+Our identification of the effects induced by a variation in cognitive load on norm-following behavior and social-norm perception relies on the com- parison of behavior for procedures 2-4 (as shown in Figure 1) following two different versions of the N-back task (1). We implement a version of the N-back task to elicit high cognitive load (henceforth, HCL), and a placebo version of the N-back (henceforth, LCL). We also varied the task order of normative expectations and personal normative beliefs.

@@ -11,7 +11,7 @@ Cognitive load is a psychological concept that establishes a precise definition 
 
 Cognitive load has been related to a trade-off between the dual systems theory proposed by Kahneman, (2011). This perspective proposes that different information-processing systems prioritize the production of automatic behaviors (system 1), and deliberate behaviors (system 2). System 2 involves effort and requires high cognitive resources.  Therefore, if cognitive resources are low due to an increase in cognitive load, the functioning of system 2 (related to rational decision making) decreases, leading to a predominance of system 1 (related to impulsive behaviors) which could conflict with normative behavior.
 
-Project presentation in PDF (in Spanish) can be found [here](presentation/presentacion.pdf)
+Project presentation in PDF (in Spanish) can be found [here](presentation/Tesis_2_PPT.pdf)
 
 ## Experimental Method
 
@@ -93,15 +93,13 @@ Table \ref{tab.Azul} shows no significant effect of the \textit{HCL} condition o
 We ran two Probit models: In the first one (column 2) the dependent variable was a dummy variable that took a value of 1 when subjects deposited all balls in the blue bucket (full rule-following), and in the second model (column 2) the dependent variable was a dummy that took a value of 1 when subjects left 0 balls in the blue bucket (full rule-violation).
 
 	
-For full rule-violation, we found that the \textit{HCL} treatment decreased the predicted probability of being a full rule-breaker. That means that people in the treatment group tended to put at least one ball in the blue bucket. This goes against our hypothesis (H1) but is consistent with \citep{adams-quackenbush_effects_2015}, who propose that deviating from the norm is cognitively challenging as it implies that people must later provide explanations and also, in some cases, must maintain a "straight" story.\footnote{ Also, \cite{strofer_catching_2016} found that in two groups in which one had an incentive to lie (not following the norm), subjects had differing skin conductance responses (SCR). Strofer proposed that not following the rules generates higher arousal levels as measured by SCR (and associated to higher levels of activity in the sympathetic nervous system).} Our results and this evidence support the hypothesis that subjects exposed to the \textit{HCL} condition and who consequently experience increased cognitive load prefer to follow the norm to avoid the additional cost of deviating from it.
+For full rule-violation, we found that the \textit{HCL} treatment decreased the predicted probability of being a full rule-breaker. That means that people in the treatment group tended to put at least one ball in the blue bucket. This goes against our hypothesis (H1) but is consistent with (Adams-Quackenbush, 2015}, who propose that deviating from the norm is cognitively challenging as it implies that people must later provide explanations and also, in some cases, must maintain a "straight" story. Our results and this evidence support the hypothesis that subjects exposed to the \textit{HCL} condition and who consequently experience increased cognitive load prefer to follow the norm to avoid the additional cost of deviating from it.
 
 
-Column 4 show the analysis of the effect of cognitive load on the distribution of blue balls in normative extreme behavior. For this purpose we created a dummy that took a value of 1 when the number of balls in the blue bucket was 0 or 50, and a value of 0 otherwise. In this case we found that people in the \texit{HCL} condition were 13\% less likely to have extreme behaviors. This result is quite interesting since there is not much evidence in this direction. \cite{westbrook_cognitive_2015}  proposed that increasing cognitive load through tasks that deplete self-control is related to changes in the salience of certain personality traits.\footnote{This means that certain traits may become salient but the reference point of the change is in the measure of the trait before to the experimental manipulation. This theory could explain the mixed results in the literature about the effect of lack of self-control over unethical behavioral and prosociality \citep{drolet_rationalizing_2004}} 
+Column 4 show the analysis of the effect of cognitive load on the distribution of blue balls in normative extreme behavior. For this purpose we created a dummy that took a value of 1 when the number of balls in the blue bucket was 0 or 50, and a value of 0 otherwise. In this case we found that people in the \texit{HCL} condition were 13\% less likely to have extreme behaviors. This result is quite interesting since there is not much evidence in this direction. Westbrook (2015)  proposed that increasing cognitive load through tasks that deplete self-control is related to changes in the salience of certain personality traits.\footnote{This means that certain traits may become salient but the reference point of the change is in the measure of the trait before to the experimental manipulation. This theory could explain the mixed results in the literature about the effect of lack of self-control over unethical behavioral and prosociality (Drolet, 2014) 
 
 ### Effects Over Social Norms Perception
 The figure \ref{fig.tab_pers} show the results of the algorithm of classification for the Personal Normatives Beliefs, in the \textit{HCL} we classified 45\% of the subjects as Consequentialist, 38\% as Deontic. Also, we classified 7 \% as normative egoists. In the other hand in the \textit{LCL} we classified   51\% as Consequentialist, 38\% as Deontic . Finally, we classified 4 \% as Normative Egoists.
-
-
 
 
 
@@ -126,5 +124,4 @@ The columns (4) shown that there is a higher probability of being in the Other c
 Also, the column (2)  shown that there is a significant effect on the Deontic category of norm perception. This negative effect means that Deontic subjects have lower probability of been found in the treatment group. These result is in line with the findings in Table \ref{tab.extreme}, where subjects in the high cognitive load treatment tend to have less extreme distributions on the Rule Following Propensity Task. 
 
 
- <img src="output/top10_donors_mean_farc.png" width="500">
-<img src="output/top10_amount_sum_nonfarc.png" width="500"> <img src="output/top10_amount_sum_farc.png" width="500">
+## Bibliography

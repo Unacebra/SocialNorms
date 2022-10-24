@@ -11,7 +11,7 @@ Cognitive load is a psychological concept that establishes a precise definition 
 
 Cognitive load has been related to a trade-off between the dual systems theory proposed by Kahneman, (2011). This perspective proposes that different information-processing systems prioritize the production of automatic behaviors (system 1), and deliberate behaviors (system 2). System 2 involves effort and requires high cognitive resources.  Therefore, if cognitive resources are low due to an increase in cognitive load, the functioning of system 2 (related to rational decision making) decreases, leading to a predominance of system 1 (related to impulsive behaviors) which could conflict with normative behavior.
 
-Project presentation in PDF (in Spanish) can be found [here](presentation/Tesis_2_PPT.pdf)
+Project presentation in PDF  can be found [here](presentation/Tesis_2_PPT.pdf)
 
 ## Experimental Method
 
